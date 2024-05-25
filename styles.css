@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #262a2f;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.game-types {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: transparent;
+    width: 75%; 
+    padding: 20px; 
+    border-radius: 10px; 
+}
+
+.game-types button {
+    font-size: 30px;
+    color: white;
+    background: #262a2f;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 20px;
+    width: 50%;
+    display: box;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+}
+
+.logistics {
+    background: transparent;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.logistics div button {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+.search-box {
+    width: 600px;
+    background: #fff;
+    margin: 50px auto 0;
+    border-radius: 10px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px
+}
+
+input {
+    flex: 1;
+    height: 50px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 18px;
+    color: #333;
+}
+
+button {
+    background: transparent;
+    border: 0;
+    outline: 0;
+}
+
+button .fa-solid {
+    width: 25px;
+    color: #555;
+    font-size: 22px;
+    cursor: pointer; 
+}
+
+::placeholder {
+    color: #555;
+}
+
+.result-box ul {
+    border-top: 1px solid #999;
+    padding: 15px 10px;
+}
+
+.result-box ul li {
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+    cursor: pointer;
+    display: flex; 
+    align-items: center; 
+}
+
+.result-box ul li:hover { 
+    background: #e9f3ff;
+}
+
+.result-box img {
+    width: 45px;
+    height: auto;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.result-box {
+    max-height: 300px;
+    overflow-y: scroll;
+}
+
+.guess-section {
+    background: transparent;
+}
+
+.guess-info {
+    background: transparent;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.guess-info div {
+    background: transparent;
+    width: 150px;
+    height: auto;
+    text-align: center;
+    border-bottom: solid white;
+    padding-bottom: 20px
+}
+
+.guess {
+    background: transparent;
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 5px;
+}
+
+.guess img {
+    width: 90px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.guess div {
+    background: transparent;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 20px;
+}
+
+.guess div div {
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 150px; 
+    height: 150px; 
+    display: flex;
+    padding: 10px;
+    align-items: center; 
+    justify-content: center; 
+    font-weight: bold;
+    font-size: 15px;
+    box-sizing: border-box; 
+    overflow-y: scroll;
+} 
+
+
